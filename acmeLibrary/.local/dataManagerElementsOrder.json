@@ -1,0 +1,159 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Generic/LaunchBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UserName&Sequence_1",
+        "Password&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "AcmeUrl"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Generic/LoginAcme.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "password&Sequence_6",
+        "IsLoginPageExist&Sequence_1",
+        "userName&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Generic/LogoutAcme.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlow/GetWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkFlow/WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/GetWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/ClickMenuItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsWorkItemsButtonExist&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "MenuName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/ExtractWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AssignPage&Sequence_4",
+        "Count&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "ExtractDataTable"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/FilterWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "FilterData",
+        "ExtractDataTable"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/Get.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "FilterData"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/GetPageCount.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsNextButtonExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "TotalPages"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkItems/UpdateWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ClientHash&Sequence_1",
+        "WorkItemId&Sequence_2",
+        "ClientValue&Sequence_2",
+        "ClientId&Sequence_2",
+        "ClientName&Sequence_2",
+        "ClientCountry&Sequence_2",
+        "WorkItemsPageUrl&Sequence_2",
+        "PageToSelect&Sequence_2",
+        "IsClientUpdated&Sequence_2",
+        "IsResultExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "ClientStatus",
+        "FilterData"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
